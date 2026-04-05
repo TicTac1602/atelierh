@@ -5,12 +5,12 @@ import FeaturedWorks from '@/components/home/FeaturedWorks';
 import CtaSection from '@/components/home/CtaSection';
 
 export const metadata: Metadata = {
-  title: 'Atelier H — Peinture & Artisanat',
+  title: 'Atelier H — Créer ensemble à Reims',
   description:
-    "Atelier H, un espace de création dédié à la peinture et à l'artisanat. Cours et stages pour tous les niveaux.",
+    "Atelier H, un espace de partage et de transmission artistique à Reims. Dessin, peinture et ateliers en petit groupe dans un cadre bienveillant.",
   openGraph: {
-    title: 'Atelier H — Peinture & Artisanat',
-    description: "Un espace de création, d'exploration et de partage.",
+    title: 'Atelier H — Créer ensemble à Reims',
+    description: "Un espace de partage, d'exploration et de transmission artistique.",
     type: 'website',
   },
 };

@@ -12,7 +12,8 @@ export default function AtelierHero() {
           L&apos;Atelier
         </h1>
         <p className="mt-6 font-body text-xl text-cream/60 max-w-xl leading-relaxed">
-          Découvrez l&apos;atelier — son histoire, sa philosophie et nos propositions.
+          Découvrez le parcours de Hanne, l&apos;esprit du lieu et la manière dont les
+          ateliers se vivent au quotidien.
         </p>
       </div>
     </div>

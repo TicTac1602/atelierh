@@ -7,26 +7,23 @@ import Button from '@/components/ui/Button';
 const VENUES = [
   {
     place: 'Collège Notre-Dame',
-    city: 'Reims',
-    type: 'Activités extrascolaires',
+    public: 'Cours enfants',
     days: ['Mar', 'Mer', 'Jeu'],
     description:
-      "Hanne intervient au Collège Notre-Dame de Reims pour dispenser des cours d'arts plastiques auprès des élèves sur les temps de midi. L'année scolaire est rythmée par des projets artistiques variés, offrant un cadre pour éveiller la sensibilité artistique dès le collège.",
+      `Cours d'arts plastiques auprès des élèves sur les temps de midi. L'année scolaire est rythmée par des projets artistiques variés.`,
     available: true,
   },
   {
-    place: 'Atelier H - Cours enfants',
-    city: 'Enfants',
-    type: 'Activités extrascolaires',
+    place: 'Atelier H',
+    public: 'Cours enfants',
     days: ['Mar', 'Mer'],
     description:
-      "Des ateliers créatifs proposés en dehors du temps scolaire, ouverts aux enfants. Peinture, collage, techniques mixtes. Les séances sont articulées autour de projets variés et sont une invitation à explorer et s'amuser avec les matières.",
+      "Des ateliers créatifs proposés en dehors du temps scolaire, ouverts aux enfants. Peinture, collage, techniques mixtes.",
     available: true,
   },
   {
-    place: 'Atelier H - Cours adultes',
-    city: 'À venir',
-    type: 'Cours adultes',
+    place: 'Atelier H',
+    public: 'Cours adultes',
     days: ['Jeu'],
     description:
       "Des cours du soir dédiés aux adultes sont en cours de préparation. Le jeudi sera l'occasion de se retrouver pour peindre, progresser et partager dans une ambiance conviviale et bienveillante.",
@@ -62,7 +59,7 @@ export default function AtelierPricing() {
         >
           {VENUES.map((v, i) => (
             <motion.div
-              key={v.place}
+              key={v.description}
               className={`relative flex flex-col gap-5 p-6 md:p-8 border transition-colors border-cream/15 bg-cream/5 hover:border-ochre/40`}
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -75,13 +72,10 @@ export default function AtelierPricing() {
               )}
 
               <div className="flex flex-col gap-1">
-                <span className="font-body text-xs font-medium tracking-[0.25em] uppercase text-ochre">
-                  {v.type}
-                </span>
                 <p className="font-display text-xl font-semibold text-ink">
                   {v.place}
                 </p>
-                <p className="font-body text-sm text-mist">{v.city}</p>
+                <p className="font-body text-md text-ochre">{v.public}</p>
               </div>
 
               {v.days && (

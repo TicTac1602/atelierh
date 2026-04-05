@@ -31,18 +31,18 @@ export default function AtelierLocation() {
 			</p>
 			<p>
 			  <a
-				href="mailto:contact@atelier-h.fr"
+				href="mailto:hanne.toulouse@free.fr"
                 className="text-earth hover:text-earth-dark transition-colors"
               >
-                contact@atelier-h.fr
+                hanne.toulouse@free.fr
               </a>
             </p>
             <p>
               <a
-                href="tel:+33600000000"
+                href="tel:+33633369107"
                 className="text-earth hover:text-earth-dark transition-colors"
               >
-                +33 6 00 00 00 00
+                +33 6 33 36 91 07
               </a>
             </p>
           </div>

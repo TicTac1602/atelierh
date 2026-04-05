@@ -2,7 +2,7 @@ const INFO = [
   {
     icon: '◉',
     label: 'Adresse',
-    value: '15 Rue de l\'Étape\n51000 Reims, France',
+    value: '15 Rue de l\'Étape\n51100 Reims, France',
   },
   {
 	icon: '◎',
@@ -13,21 +13,16 @@ const INFO = [
   {
     icon: '◈',
     label: 'Email',
-    value: 'contact@atelier-h.fr',
-    href: 'mailto:contact@atelier-h.fr',
+    value: 'hanne.toulouse@free.fr',
+    href: 'mailto:hanne.toulouse@free.fr',
   },
 
   {
     icon: '✦',
     label: 'Téléphone',
-    value: '+33 6 00 00 00 00',
-    href: 'tel:+33600000000',
-  },
-  {
-    icon: '◇',
-    label: 'Horaires',
-    value: 'Mardi 17h30-19h\nMercredi 15h-18h30',
-  },
+    value: '+33 6 33 36 91 07',
+    href: 'tel:+33633369107'
+  }
 ];
 
 export default function ContactInfo() {
@@ -42,7 +37,7 @@ export default function ContactInfo() {
           Venez nous rendre visite
         </h2>
         <p className="font-body text-charcoal leading-relaxed max-w-sm">
-          Nous sommes ouvert sur les créneaux de cours. N&apos;hésitez pas à passer nous voir
+          Nous sommes ouverts sur les créneaux de cours. N&apos;hésitez pas à passer nous voir
           ou à nous écrire pour toute question.
         </p>
       </div>

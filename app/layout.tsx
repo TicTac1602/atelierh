@@ -17,11 +17,11 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Atelier H — Peinture & Artisanat',
+    default: 'Atelier H — Créer ensemble à Reims',
     template: '%s | Atelier H',
   },
   description:
-    "Atelier H, un espace de création dédié à la peinture et à l'artisanat. Cours et stages pour tous les niveaux.",
+    "Atelier H, un espace de partage et de transmission artistique à Reims. Dessin, peinture et ateliers en petit groupe dans un cadre bienveillant.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? 'https://atelier-h.vercel.app'
   ),

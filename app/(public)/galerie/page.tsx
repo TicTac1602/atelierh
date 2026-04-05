@@ -4,7 +4,7 @@ import GalerieClient from '@/components/gallery/GalerieClient';
 export const metadata: Metadata = {
   title: 'Galerie',
   description:
-    "Explorez les œuvres de l'Atelier H : peintures, aquarelles, acryliques, pastels et artisanat.",
+    "Explorez les œuvres de l'Atelier H : aquarelles, acryliques, dessins et expérimentations nées à l'atelier.",
 };
 
 export default function GaleriePage() {
@@ -12,7 +12,7 @@ export default function GaleriePage() {
     <>
       {/* Page hero */}
       <div className="bg-ink texture-ink py-28 md:py-36 px-[10vw] relative overflow-hidden">
-        <div className="absolute left-[8vw] top-0 w-px h-full bg-gradient-to-b from-ochre/40 via-ochre/10 to-transparent" />
+        <div className="absolute left-[8vw] top-0 w-px h-full bg-linear-to-b from-ochre/40 via-ochre/10 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto">
           <span className="font-body text-xs font-medium tracking-[0.3em] uppercase text-ochre">
             Créations

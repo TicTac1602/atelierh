@@ -26,7 +26,7 @@ export default function HeroText() {
         variants={item}
         className="font-body text-xs md:text-sm font-medium tracking-[0.3em] uppercase text-ochre"
       >
-        Peinture &amp; Artisanat
+        Créer ensemble
       </motion.span>
 
       <motion.h1
@@ -41,9 +41,9 @@ export default function HeroText() {
         variants={item}
         className="font-body text-lg md:text-xl text-cream/70 max-w-xl leading-relaxed"
       >
-        Un espace de création, d&apos;exploration et de partage autour de la peinture
-        et de l&apos;artisanat. Pour tous les niveaux, dans une atmosphère
-        bienveillante et inspirante.
+        Un espace de partage, d&apos;exploration et de transmission artistique autour
+        du dessin et de la peinture. Débutants ou confirmés, chacun y avance à
+        son rythme.
       </motion.p>
 
       <motion.div variants={item} className="flex flex-wrap gap-4 pt-2">

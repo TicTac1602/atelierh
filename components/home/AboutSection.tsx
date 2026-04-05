@@ -55,32 +55,37 @@ export default function AboutSection() {
           </span>
           <span className="ochre-rule" aria-hidden />
           <h2 className="font-display text-4xl md:text-5xl font-semibold text-ink leading-tight">
-            Un lieu où la<br />
-            <span className="italic text-earth">création</span> prend vie
+            Une transmission née <br/><span className="italic text-earth">du geste et de l&apos;écoute</span>
           </h2>
           <p className="font-body text-charcoal leading-relaxed">
-            Bienvenue à l&apos;Atelier H — un espace chaleureux dédié à la peinture et à
-            l&apos;artisanat. Que vous soyez débutant ou artiste confirmé, chaque
-            séance est pensée pour vous permettre de vous exprimer librement, à
-            votre rythme.
+            Danoise d&apos;origine et maman de quatre enfants, Hanne découvre la peinture
+            sur bois à la caséine lors d&apos;un stage à Chantilly en 2001. En arrivant à
+            Reims, elle poursuit sa formation aux Bleuets, puis à l&apos;école BLOT avant
+            d&apos;entreprendre le cursus de peintre en décor.
           </p>
           <p className="font-body text-charcoal leading-relaxed">
-            Chaque atelier propose un cadre bienveillant où l&apos;expérimentation est
-            encouragée. Aquarelle, acrylique, pastel, peinture à l&apos;huile ou
-            petits objets artisanaux — explorez les techniques qui vous inspirent.
+            Diplômée de l&apos;école BLOT depuis 2017, elle transmet depuis 2018 au
+            collège Notre-Dame de Reims, où elle accompagne les élèves dans la
+            découverte du dessin et de la peinture sur le temps du midi.
+          </p>
+          <p className="font-body text-charcoal leading-relaxed">
+            Après une expérience auprès des enfants chez Et Caetera entre 2019 et
+            2021, puis des cours particuliers à domicile, elle ouvre en 2025 son
+            atelier rue de l&apos;Étape : un lieu vivant, accessible et bienveillant,
+            dédié au plaisir de créer ensemble.
           </p>
           <div className="flex gap-8 pt-2">
             <div>
-              <div className="font-display text-3xl font-bold text-earth">10+</div>
-              <div className="font-body text-sm text-charcoal">Années d&apos;expérience</div>
+              <div className="font-display text-3xl font-bold text-earth">2001</div>
+              <div className="font-body text-sm text-charcoal">Première rencontre avec la caséine</div>
             </div>
             <div>
-              <div className="font-display text-3xl font-bold text-earth">50+</div>
-              <div className="font-body text-sm text-charcoal">Élèves accompagnés</div>
+              <div className="font-display text-3xl font-bold text-earth">2017</div>
+              <div className="font-body text-sm text-charcoal">Diplômée de l&apos;école BLOT</div>
             </div>
             <div>
-              <div className="font-display text-3xl font-bold text-earth">5</div>
-              <div className="font-body text-sm text-charcoal">Techniques enseignées</div>
+              <div className="font-display text-3xl font-bold text-earth">2018</div>
+              <div className="font-body text-sm text-charcoal">Début des cours au collège Notre-Dame de Reims</div>
             </div>
           </div>
         </motion.div>

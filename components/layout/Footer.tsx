@@ -20,7 +20,7 @@ export default function Footer() {
               Atelier<span className="text-ochre"> H</span>
             </span>
             <p className="text-sm max-w-xs text-cream/50">
-              Un espace de création dédié à la peinture et à l&apos;artisanat.
+              Un espace vivant de partage et de transmission artistique à Reims.
             </p>
           </div>
 
